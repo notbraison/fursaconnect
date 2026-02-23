@@ -1,0 +1,26 @@
+{
+  "name": "fursaconnect",
+  "version": "1.0.0",
+  "description": "Pata FURSA ya  kujenga biashara yako online",
+  "homepage": "https://github.com/notbraison/fursaconnect#readme",
+  "bugs": {
+    "url": "https://github.com/notbraison/fursaconnect/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/notbraison/fursaconnect.git"
+  },
+  "license": "ISC",
+  "author": "braison orina",
+  "type": "commonjs",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "npm run dev"
+  },
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}
