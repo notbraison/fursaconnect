@@ -18,9 +18,15 @@
     "doc": "docs"
   },
   "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
     "test": "npm run dev"
   },
+  "engines": {
+    "node": "22.x"
+  },
   "dependencies": {
+    "debug": "^4.3.4",
     "axios": "^1.13.5",
     "bcryptjs": "^2.4.3",
     "cors": "^2.8.6",
