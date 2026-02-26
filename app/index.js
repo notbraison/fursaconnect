@@ -12,7 +12,7 @@ app.use(express.urlencoded({ extended: true }));
 
 //  PAGE ROUTES
 app.get('/', (req, res) => {
-    res.sendFile(path.join(__dirname, 'index.html'));
+    res.sendFile(path.join(__dirname, 'public', 'index.html'));
 });
 //HEALTHCHECK ENDPOINT
 app.get('/api/health', (req, res) => {
